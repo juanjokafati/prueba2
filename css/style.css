@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+body{
+	font-color: #282d33;
+	font-family: Catamaran;
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+header{
+	background-color: #fff;
+}
+
+#top-header{
+	background-image: url("../img/bg-services-title.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 150px 0;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.circulo i{
+	color: #e0e0e0;
+	font-size: 80px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.check i{
+	color: #53c3c9;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#features .feature{
+	padding: 20px 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	
+}
+
+#see{
+	background-color: #f7f7f7;
+}
+
+.titlesee p{
+	font-weight: 50;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
